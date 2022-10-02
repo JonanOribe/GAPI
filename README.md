@@ -10,6 +10,6 @@
 <h3>:mag_right: Testing</h3>
 <li>Lanzamos los tests con <b>pytest -W ignore::DeprecationWarning</b></li>
 <h3>:rocket: Lanzamos el proyecto con:</h3>
-<li><b>uvicorn main:app --reload</b></li>
+<li><b>python manage.py runserver</b></li>
 <h3>:chart_with_upwards_trend: Documentación API</h3>
 <li>Abrir <b>http://127.0.0.1:8000/docs</b> en un navegador</li>
